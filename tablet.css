@@ -33,7 +33,7 @@
     }
 }
 
-@media screen and (min-width: 520px){
+@media screen and (min-width: 1020px){
     .button a{
         transition: 0.5s;
     }
