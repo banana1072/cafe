@@ -31,3 +31,12 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 520px){
+    .button a{
+        transition: 0.5s;
+    }
+    .button a:hover{
+        color:gray;
+    }
+}
