@@ -1,0 +1,33 @@
+@media screen and (max-width: 520px){ 
+
+    main{
+        height:100%;
+    }
+    .main-container{
+        background-image: url(img/caffeine-g1d036f6df_1920.jpg);
+        background-size:cover;
+        height: 100%;
+    }
+
+    .main-left{
+        display: none;
+    }
+
+    .main-right{
+        margin:0 auto;
+        color:white;
+        
+    }
+
+    .button{
+        border-color: white;
+    }
+
+   
+
+
+    
+    header{
+        display: none;
+    }
+}
