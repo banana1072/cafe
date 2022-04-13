@@ -1,0 +1,104 @@
+
+
+.header-container{
+    width:90%;
+    margin:0 auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right{
+    color:rgb(107,164,168);
+}
+.header-right-top{
+    display: flex;
+}
+
+.header-right-top h1{
+    margin-bottom:10px;
+    margin-right:15px;
+    position: relative;
+    top:4px;
+    font-size: 1.0rem;
+}
+
+.header-right-top h2{
+    font-size:1.3rem;
+}
+
+.fa-phone{
+    position: relative;
+    top:-1px;
+}
+.header-right-bottom p{
+    margin-top:5px;
+}
+
+main{
+    position: relative;
+    top:-72px;
+}
+
+.main-container{
+    display: flex;
+}
+
+.main-left{
+    width:55%;
+    height:800px;
+}
+
+.back-img{
+    height:800px;
+    background-image: url(img/coffee-g327b2757e_1920.jpg);
+    background-size: cover;
+    color:white;
+    font-size: 2.0rem;
+    font-family: cursive;
+}
+
+.main-left-text{
+    padding-top:300px;
+    padding-left:32%;
+    font-size: 4.0rem;
+    
+}
+
+.main-left-text h2{
+    margin-top:30px;
+}
+
+.main-right{
+    width:45%;
+    padding-top:250px;
+}
+
+.main-right-button{
+    margin:0 auto;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button{
+    height:55px;
+    margin: 0 auto;
+    margin-bottom:85px;
+    text-align: center;
+    font-family: cursive;
+    border-bottom:black solid 2px;
+    transition: 0.5s;
+}
+
+.button a:hover{
+    color:gray;
+}
+
+.button a{
+    position: relative;
+    top: 7px;
+    font-size: 2.5rem;
+}
