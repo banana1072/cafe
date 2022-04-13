@@ -93,9 +93,6 @@ main{
     transition: 0.5s;
 }
 
-.button a:hover{
-    color:gray;
-}
 
 .button a{
     position: relative;
