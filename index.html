@@ -6,9 +6,13 @@
         <link rel="stylesheet" href="cafe.css">
         <link rel="stylesheet" href="resset.css">
         <link rel="stylesheet" href="tablet.css">
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
+        <div id="loader_wrap">
+            <div class="loader"></div>
+        </div>
         <header>
             <div class="header-container">
                 <div class="header-left">
@@ -69,5 +73,13 @@
         <footer>
             <p>Copyright : 2022　◯◯◯◯◯◯</p>
         </footer>
+        <script>
+            window.onload = function () {
+            const loader_element = document.getElementById('loader_wrap');
+            loader_element.classList.add('loaded');
+            };
+            console.log("Hello")
+        </script>
     </body>
+    
 </html>
